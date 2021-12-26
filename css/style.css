@@ -1,0 +1,83 @@
+.hidden {
+  display: none;
+} /* 어떤 요소에게든 이 class name을 주면 그 요소를 숨기게 함. */
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 90%;
+}
+
+body {
+  color: beige;
+  text-align: center;
+  margin-top: 25px;
+}
+#login-form {
+  padding-bottom: 30px;
+}
+
+.name {
+  width: 200px;
+  height: 25px;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.login {
+  height: 20px;
+  border: 0px;
+  border-radius: 3px;
+  background-color: rebeccapurple;
+  color: white;
+}
+
+#greeting {
+  font-size: 50px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#todo-form input {
+  width: 500px;
+  height: 35px;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#todo-list {
+  font-size: 30px;
+  list-style: inside square;
+  text-shadow: 1px 1px 1px black;
+}
+
+#clock {
+  font-size: 50px;
+  text-shadow: 1px 1px 1px black;
+}
+
+#quote {
+  font-size: 25px;
+  padding-bottom: 5px;
+  text-shadow: 1px 1px 1px darkgray;
+}
+
+button {
+  height: 25px;
+  margin-left: 15px;
+  border-radius: 50%;
+  border: none;
+  
+}
+
+#weather {
+  padding-bottom: 20px;
+  font-size: 20px;
+}
